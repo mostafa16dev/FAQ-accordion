@@ -87,6 +87,10 @@ article .accordion-body {
     line-height: 1.5rem;
 }
 
+article:first-of-type .accordion-body {
+    display: block;
+}
+
 hr {
     border: 0.2px solid var(--main-bg-color);
     margin: 0 2px;
