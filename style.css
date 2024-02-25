@@ -69,6 +69,10 @@ article .accordion-header {
     --url: url('assets/images/icon-plus.svg');
 }
 
+article:first-of-type .accordion-header {
+    --url: url('assets/images/icon-minus.svg');
+}
+
 article .accordion-header:hover,
 article .accordion-header:active {
     color: #AF27F0;
